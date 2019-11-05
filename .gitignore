@@ -1,0 +1,34 @@
+src/*.exe
+src/rndcoin
+src/rndcoind
+src/test_rndcoin
+.*.swp
+*.*~*
+*.bak
+*.rej
+*.orig
+*.o
+*.patch
+.rndcoin
+
+# Compilation and Qt preprocessor part
+*.qm
+Makefile
+rndcoin-qt
+Rndcoin-Qt.app
+
+# Unit-tests
+Makefile.test
+rndcoin-qt_test
+
+# Resources cpp
+qrc_*.cpp
+
+# Qt creator
+*.pro.user
+
+# Mac specific
+.DS_Store
+build
+
+!src/leveldb*/Makefile

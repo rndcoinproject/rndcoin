@@ -1,0 +1,9 @@
+Building Rndcoin
+
+See doc/readme-qt.rst for instructions on building Rndcoin-Qt,
+the intended-for-end-users, nice-graphical-interface, reference
+implementation of Rndcoin.
+
+See doc/build-*.txt for instructions on building rndcoind,
+the intended-for-services, no-graphical-interface, reference
+implementation of Rndcoin.
